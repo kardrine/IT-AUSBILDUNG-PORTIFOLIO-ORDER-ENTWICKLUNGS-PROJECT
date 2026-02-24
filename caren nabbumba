@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT-Portfolio | Bewerbung um eine Ausbildung</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Mein Weg zum Fachinformatiker</h1>
+        <p>Fintech-Erfahrung & Leidenschaft für die IT-Systemintegration</p>
+    </header>
+
+    <div class="container">
+        
+        <section id="about">
+            <h2>Über mich</h2>
+            <p>
+                Durch meine bisherige Arbeit im Fintech-Sektor bei Unternehmen wie <strong>Relworx</strong> und <strong>GovtNet</strong> habe ich ein tiefes Verständnis für die Bedeutung sicherer und effizienter IT-Systeme entwickelt. 
+                Mit meinen praktischen Kenntnissen im Datenmanagement und technischen Support möchte ich nun eine fundierte <strong>IT-Ausbildung</strong> beginnen, um meine technischen Fähigkeiten professionell zu vertiefen.
+            </p>
+        </section>
+
+        <section id="experience">
+            <h2>Berufserfahrung</h2>
+
+            <div class="card">
+                <h3>Kundenbetreuung</h3>
+                <p class="company">Relworx Limited</p>
+                <ul>
+                    <li>Durchführung von <strong>KYC-Prüfungen</strong> (Know Your Customer) zur Identitätsverifikation.</li>
+                    <li>Überwachung von Finanztransaktionen und Fehlerbehebung bei Systemstörungen.</li>
+                    <li>Erstellung monatlicher Finanzberichte und detaillierter Systemanalysen.</li>
+                    <li>Aktualisierung von Kundenstatus und Datenpflege im System.</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>Technical Support & Data Administrator</h3>
+                <p class="company">GovtNet Africa</p>
+                <ul>
+                    <li>Technischer Support für Kunden bei der Nutzung von <strong>Client-Portalen</strong>.</li>
+                    <li>Sicherstellung der Datenintegrität innerhalb der Fintech-Plattform.</li>
+                    <li>Registrierung neuer Systemnutzer und Verwaltung der Zugriffsrechte.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Kenntnisse & Sprachen</h2>
+            <div class="skills-grid">
+                <span class="skill-tag">HTML5 & CSS3</span>
+                <span class="skill-tag">Git / GitHub</span>
+                <span class="skill-tag">Fintech Operations</span>
+                <span class="skill-tag">Troubleshooting</span>
+                
+                <span class="skill-tag language">Deutsch: B2</span>
+                <span class="skill-tag language">Englisch: Fließend</span>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Kontakt</h2>
+            <p>Haben Sie Fragen oder Interesse an einem persönlichen Gespräch? Ich freue mich auf Ihre Nachricht!</p>
+            
+            <form action="https://formspree.io/f/YOUR_FORMSPREE_ID_HERE" method="POST">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required placeholder="Ihr Name">
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">E-Mail</label>
+                    <input type="email" id="email" name="email" required placeholder="ihre.email@beispiel.de">
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Nachricht</label>
+                    <textarea id="message" name="message" required placeholder="Wie kann ich Ihnen helfen?"></textarea>
+                </div>
+                
+                <button type="submit" class="submit-btn">Nachricht senden</button>
+            </form>
+            <p class="privacy-note">Hinweis: Diese Daten werden ausschließlich zur Kontaktaufnahme verwendet.</p>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 | Portfolio für meine Ausbildungssuche in Deutschland</p>
+    </footer>
+
+</body>
+</html>
